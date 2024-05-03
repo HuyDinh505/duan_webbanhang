@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+/* Quy đổi ra 1 rem bằng 10px */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
