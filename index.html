@@ -1,18 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Shopee - Mua hàng nhanh, hàng chuẩn, ship nhanh</title>
-</head>
-<body>
-    <div class="container">
-        <div class="header"></div>
-        <div class="menu"></div>
-        <div class="content"></div>
-        <div class="footer"></div>
-    </div>
-</body>
+    <link
+      rel="stylesheet"
+      href="css/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet prefetch"
+      href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="logo">
+              <div class="logo-1"><img src="/image/image 5.png" alt="" /></div>
+              <div class="logo-2">BRAND NAME</div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="logo-icon">
+              <a href="" class="icon-link"><i class="fa-solid fa-user"></i></a>
+              <a href="" class="icon-link"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+              <a href="" class="icon-link"><i class="fa-solid fa-bars"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="menu-header">
+          <h1><hr class="thanhngang1" /></h1>
+          <ul>
+            <li>
+              <a href="">Trang chủ</a>
+            </li>
+            <li>
+              <a href="">Sản phẩm</a>
+            </li>
+            <li>
+              <a href="">Hãng</a>
+            </li>
+            <li>
+              <a href="">Phụ kiện</a>
+            </li>
+            <li>
+              <a href="">Liên hệ</a>
+            </li>
+          </ul>
+          <h1><hr class="thanhngang1" /></h1>
+          <!-- <div class="header-timkiem">
+            <input type="text" placeholder="Search" class="form-timkiem">
+            <button class="btn btn-text" type="button" id="btn-timkiem">Tìm kiếm</button>
+          </div> -->
+        </div>
+        <div class="search">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              id="button-addon2"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="p1">
+      <div class="container">
+        <div class="row">
+          <div class="baner">
+            <div class="col-lg-6">
+              <img
+                src="/image/samsung-galaxy-a23.png"
+                alt="Điện thoại sam sung a23"
+                class="a23-sale"
+              />
+            </div>
+            <div class="col-lg-6">
+              <div class="col-lg-6-center">
+                <div class="col-lg-6-header">HOT DEALS THIS WEEK</div>
+                <div class="col-lg-6-content">
+                  SALE 50% OFF MODERN FURNITURE
+                </div>
+                <div class="col-lg-6-footer">
+                  <button
+                    class="btn btn-outline-secondary"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    Search
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="product">
+      <div class="container">
+        <div class="row">
+          <div class="product-sum">
+            <div class="col-lg-3">
+              <div class="row-product">
+                <img
+                  src="image/iPhone 15 Pro Max.png"
+                  alt=""
+                  class="img-product"
+                />
+                <div class="product-content">
+                  <a href="">iPhone 15 Pro Max</a>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+
+                <div class="product-price">29.590.000<sup>đ</sup></div>
+              </div>
+              <div class="row-product">
+                <img
+                  src="image/iPhone 15 Pro Max.png"
+                  alt=""
+                  class="img-product"
+                />
+                <div class="product-content">
+                  <a href="">iPhone 15 Pro Max</a>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="product-price">29.590.000<sup>đ</sup></div>
+              </div>
+              <div class="row-product">
+                <img
+                  src="image/iPhone 15 Pro Max.png"
+                  alt=""
+                  class="img-product"
+                />
+                <div class="product-content">
+                  <a href="">iPhone 15 Pro Max</a>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="product-price">29.590.000<sup>đ</sup></div>
+              </div>
+              <div class="row-product">
+                <img
+                  src="image/iPhone 15 Pro Max.png"
+                  alt=""
+                  class="img-product"
+                />
+                <div class="product-content">
+                  <a href="">iPhone 15 Pro Max</a>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="product-price">29.590.000<sup>đ</sup></div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="row-product">
+                <img
+                  src="image/iPhone 15 Pro Max.png"
+                  alt=""
+                  class="img-product"
+                />
+                <div class="product-content">
+                  <a href="">iPhone 15 Pro Max</a>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="product-price">29.590.000<sup>đ</sup></div>
+              </div>
+              <div class="row-product">
+                <img
+                  src="image/iPhone 15 Pro Max.png"
+                  alt=""
+                  class="img-product"
+                />
+                <div class="product-content">
+                  <a href="">iPhone 15 Pro Max</a>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="product-price">29.590.000<sup>đ</sup></div>
+              </div>
+              <div class="row-product">
+                <img
+                  src="image/iPhone 15 Pro Max.png"
+                  alt=""
+                  class="img-product"
+                />
+                <div class="product-content">
+                  <a href="">iPhone 15 Pro Max</a>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="product-price">29.590.000<sup>đ</sup></div>
+              </div>
+              <div class="row-product">
+                <img
+                  src="image/iPhone 15 Pro Max.png"
+                  alt=""
+                  class="img-product"
+                />
+                <div class="product-content">
+                  <a href="">iPhone 15 Pro Max</a>
+                </div>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="product-price">29.590.000<sup>đ</sup></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promotion">
+      <div class="container">
+        <div class="khuyenmai">
+          <img src="/image/Khuyenmai.png" alt="Khuyến mãi" />
+        </div>
+
+        <div class="top">TOP RATING</div>
+        <div class="row-rating">
+          <div class="col-lg-4">
+            <div class="rating">
+              <div class="rating-ngang">
+                <div class="rating-img">
+                  <img
+                    src="/image/Top-rating/IPhone 13 128GB.png"
+                    alt="IPhone 13 128GB"
+                  />
+                </div>
+                <div class="rating-content">
+                  <div class="product-content">
+                    <a href="">iPhone 15 Pro Max</a>
+                  </div>
+                  <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="product-price">29.590.000<sup>đ</sup></div>
+                </div>
+              </div>
+              <div class="rating-ngang">
+                <div class="rating-img">
+                  <img
+                    src="/image/Top-rating/IPhone 13 128GB.png"
+                    alt="IPhone 13 128GB"
+                  />
+                </div>
+                <div class="rating-content">
+                  <div class="product-content">
+                    <a href="">iPhone 15 Pro Max</a>
+                  </div>
+                  <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="product-price">29.590.000<sup>đ</sup></div>
+                </div>
+              </div>
+              <div class="rating-ngang">
+                <div class="rating-img">
+                  <img
+                    src="/image/Top-rating/IPhone 13 128GB.png"
+                    alt="IPhone 13 128GB"
+                  />
+                </div>
+                <div class="rating-content">
+                  <div class="product-content">
+                    <a href="">iPhone 15 Pro Max</a>
+                  </div>
+                  <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+
+                  <div class="product-price">29.590.000<sup>đ</sup></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
