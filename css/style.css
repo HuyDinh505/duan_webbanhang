@@ -43,12 +43,13 @@ body {
 .logo-icon .fa-user {
   width: 34px;
   height: 37px;
-  flex-shrink: 0;
 }
 .logo-icon .fa-cart-shopping {
   width: 34px;
   height: 34px;
-  flex-shrink: 0;
+}
+.logo-icon .icon-link:before {
+  content: none;
 }
 .logo-icon .icon-link i {
   font-size: 25px;
