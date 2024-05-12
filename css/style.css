@@ -268,19 +268,23 @@ label.star:before {
 }
 
 /* rating */
-.container .row-rating {
+
+.promotion .container .row {
   width: 90%;
   height: auto;
   margin-top: 2%;
+  display: flex;
 }
 .rating {
   display: flex;
+  width: 100%;
+  /* flex-wrap: wrap; */
 }
-.rating .rating-ngang {
+.rating {
   width: 416px;
   height: auto;
-  margin-right: 15%;
-  display: flex;
+  margin: 0% 14% 6% 2%;
+  /* display: flex; */
 }
 
 .rating-img img {
@@ -290,4 +294,109 @@ label.star:before {
 .rating-content {
   margin-top: 6%;
   width: 216px;
+}
+
+.promotion .container .loadmode {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10px;
+}
+.promotion .container .loadmode .btn {
+  width: 273px;
+  height: 51px;
+
+  color: #fff;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: #4c8787;
+  align-self: center;
+}
+
+/* footer */
+footer .container .row {
+  margin-top: 80px;
+  width: 100%;
+  height: 447px;
+  background-color: #0a032a;
+}
+.left {
+  margin: 11.18% 0 0 15%;
+}
+.left-top {
+  color: #f3f6ff;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.left-mid {
+  color: rgba(255, 255, 255, 0.5);
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+.left-down {
+  color: var(--Page-color, #f3f6ff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+.left-down .content {
+  margin-bottom: 15px;
+}
+.left-icon {
+  display: flex;
+  width: 286.667px;
+  height: 19.873px;
+  padding-right: 0px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 72.607px;
+  flex-shrink: 0;
+}
+.left-icon i {
+  font-size: 200%;
+  color: white;
+}
+.footer-header {
+  color: #f3f6ff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 24.18% 0 0 11%;
+}
+.mid {
+  display: flex;
+}
+.footer-content-menu {
+  margin: 22px 0 0 2%;
+}
+.footer-content-menu li {
+  margin-top: 16px;
+}
+.footer-content-menu li a {
+  text-decoration: none;
+  color: var(--Page-color, #f3f6ff);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
