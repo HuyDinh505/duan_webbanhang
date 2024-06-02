@@ -227,7 +227,6 @@ label.star:before {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-transform: lowercase;
   margin: 10% 0% 5% 0%;
 }
 .product-content a {
@@ -238,14 +237,14 @@ label.star:before {
 .product-price {
   width: 71px;
   height: 36px;
-  color: #323334;
-
+  color:red;
   font-family: Roboto;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   margin-left: 5%;
+  margin-top: 10px;
 }
 .fa-star {
   font-size: 180%;
@@ -400,4 +399,247 @@ footer .container .row {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+.btnmua{
+  margin: -40px 0px 10px 220px;
+  
+}
+.btnmua button{
+  width: 70px;
+}
+.btnmua button span{
+  font-size: 15px;
+}
+.baner_phukien img{
+  width: 1300px;
+}
+.tainghe{
+  margin-top: 20px;
+ 
+}
+.banner_tainghe img{
+  width: 400px;
+  height: 270px;
+  margin-left: 110px;
+  
+}
+.col-lg-8.slide_anh{
+  background-color:white;
+  height: 270px;
+  width: 900px;
+}
+.owl-carousel.owl-theme{
+  margin:20px 20px 10px 0px;
+}
+.owl-carousel.owl-theme img{
+  width: 60px;
+}
+.item_tainghe span{
+    font-size: 18px;
+}
+.item_tainghe p{
+  font-size: 15px;
+  color: red ;
+}
+/* -------------------------------------------------------------lienhe-------------------------------------------------------- */
+.fromthongtin {
+  margin-top: 25px;
+  font-size: 15px;
+}
+.diachi
+{
+  border: 1px solid;
+  border-top-left-radius: 35px;
+  height: 80px;
+}
+.icon-diachi i
+{
+  margin-left: 60px;
+  margin-top: 30px;
+  font-size: x-large;
+  box-shadow: 0px 0px 0px 10px rgba(232, 231, 231, 0.5);
+  border-radius: 50%;
+}
+.noidung-diachi {
+margin-left: -20px ;
+margin-top: 10px;
+}
+.email
+{
+  border: 1px solid;
+  margin-top: 20px;
+  height: 60px;
+}
+.icon-email i
+{
+  margin-left: 60px;
+  margin-top: 15px;
+  font-size: x-large;
+  box-shadow: 0px 0px 0px 10px rgba(232, 231, 231, 0.5);
+  border-radius: 50%;
+}
+.noidung-email{
+  margin-left: -20px ;
+margin-top: 10px;
+}
+.sodienthoai
+{
+  border: 1px solid;
+  margin-top: 20px;
+  height: 60px;
+}
+.icon-phone i
+{
+  margin-left: 50px;
+  margin-top: 15px;
+  font-size: x-large;
+  box-shadow: 0px 0px 0px 10px rgba(232, 231, 231, 0.5);
+  border-radius: 50%;
+}
+.noidung-phone{
+  margin-left: -20px ;
+margin-top: 10px;
+}
+.fanpage
+{
+  border: 1px solid;
+  margin-top: 20px;
+  border-bottom-right-radius: 35px;
+}
+.icon-fanpage i
+{
+  margin-left: 60px;
+  margin-top: 20px;
+  font-size: x-large;
+  box-shadow: 0px 0px 0px 10px rgba(232, 231, 231, 0.5);
+  border-radius: 50%;
+}
+.noidung-fanpage{
+  margin-left: -20px ;
+margin-top: 10px;
+}
+.noidung-fanpage .p_fanpage2
+{
+  margin-top: -10px;
+}
+.lienhe {
+  text-align: center;
+  margin-top: 30px;
+}
+.fromlienhe{
+  margin-top: 20px;
+  border: 1px solid;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  height: 500px;   
+  font-size: 15px;                            
+}
+.lienhe-text{
+  margin: 30px 0px 0px 20px;
+  font-size: 15px;
+}
+.lienhe-input .container-fluid{
+  width: 1000px;
+}
+.container-fluid input{
+  margin: 0px 100px 0px 100px;
+  font-weight: 1px;
+}
+.ipten-email{
+  display: flex;
+}
+.ipten-email input{
+  width: 300px;
+}
+.ipemail input{
+  margin-left: 5px;   
+}
+.ippass{
+  margin-top: 20px;
+}
+.ippass input {
+  width: 610px;
+}
+.ipsdt{
+  margin-top: 20px;
+}
+.ipsdt input {
+  width: 610px;
+}
+.ipnoidung{
+  margin-top: 20px;
+  height: 400px;
+}
+.ipnoidung input{
+  width: 610px;
+  height: 150px;
+}
+.ipnoidung ::placeholder{
+ text-align: start;
+}
+.btn-gui button{
+  margin-left: 350px;
+  margin-top: -450px;
+  width: 100px;
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.from-lienhe .error-message{
+  margin-left: 20px;
+}
+
+.btn-gui .btn.btn-outline-success:hover{
+  background-color: black;
+}
+.bando-text{
+  margin-left: 120px;
+  margin-top: 60px;
+  width: 400px;
+  font-size: 15px;
+}
+.bando-text h3{
+  font-size: 30px;
+}
+.bando iframe{
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 800px;
+  height: 350px;
+  margin-bottom: -60px;
+}
+
+.logo-Zalo img{
+  position: fixed;
+  bottom: 80px;
+  right: 115px;
+  width: 60px;
+}
+.logo-Mes img{
+  position: fixed;
+  bottom: 10px;
+  right: 112px;
+  width: 57px;
+}
+.tieude h1{
+  text-align: center;
+  margin-top: 20px;
+}
+.banneriphone img{
+   margin-left: 110px;
+
+}
+.tieude2 h1{
+  text-align: center;
+  margin-top: 20px;
+}
+.bannersamsung img{
+ width: 1300px;
+ height: 300px;
+}
+.item_samsung{
+  background-color: pink;
+}
+.item_samsung img{
+  height: 300px;
 }
